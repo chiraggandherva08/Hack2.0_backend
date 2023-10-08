@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // --------------------------------- //
 dotenv.config(
-    { path: './config.env' }
+    { path: './.env' }
 );
 
 const ACCESS_URL = process.env.ACCESS_URL;
